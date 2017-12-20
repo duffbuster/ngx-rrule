@@ -1,0 +1,29 @@
+{
+  "rulesDirectory": [
+    "node_modules/codelyzer"
+  ],
+  "extends": [ "angular-tslint-rules" ],
+  "rules": {
+    "component-selector": false,
+    "curly": true,
+    "no-console": [
+      true,
+      "debug",
+      "info",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "pipe-naming": false,
+    "angular-whitespace": [ true, "check-interpolation" ],
+    "typedef-whitespace": [ true, { "property-declaration": "nospace", "variable-declaration": "nospace" } ],
+    "whitespace": [ true ],
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "no-null-keyword": false,
+    "use-view-encapsulation": false,
+    "no-unused-expression": true
+  }
+}
